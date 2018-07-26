@@ -1,6 +1,6 @@
 <view class="section">
  
- <view class='root_view'  wx:for="{{android}}">
+ <view class='root_view'  wx:for="{{android}}" bindtap='onItemClick' >
     <view class='title_header'>
       <image style="width: 50px; height: 50px; background-color: #eeeeee;" src="{{item.icon}}"></image>
       <view class='title'>{{item.title}}</view>
