@@ -1,0 +1,29 @@
+/* pages/index/requst/request.wxss */
+
+.root_view{
+  margin: 20px
+}
+
+
+.title_header{
+   display: flex;
+}
+
+/* 文章标题 */
+
+.title{
+  height: 50px;
+  color: #333;
+  size: 32px;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-content: center;
+  vertical-align: middle
+}
+/* 时间样式 */
+.time{
+  color: #999;
+  size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px
+}
