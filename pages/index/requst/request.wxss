@@ -13,8 +13,8 @@
 
 .title{
   height: 50px;
-  color: #333;
-  size: 32px;
+  color: #353535;
+  size: 17pt;
   padding-left: 25px;
   padding-right: 25px;
   align-content: center;
@@ -22,8 +22,8 @@
 }
 /* 时间样式 */
 .time{
-  color: #999;
-  size: 30px;
+  color: #888;
+  size: 13pt;
   margin-top: 15px;
   margin-bottom: 15px
 }

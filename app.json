@@ -3,6 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/index/requst/request",
+    "pages/tabme/tabme",
+    "pages/tabth/tabth",
+    "pages/tabtwo/tabtwo",
     "pages/index/requst/cdetail/cdetail"
   ],
   "window":{
@@ -10,5 +13,33 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/index/img/icon_home_hui.png",
+        "selectedIconPath": "pages/index/img/icon_home_red.png"
+      },
+      {
+        "pagePath": "pages/tabtwo/tabtwo",
+        "text": "推荐",
+        "iconPath": "pages/index/img/icon_tuijian_hui.png",
+        "selectedIconPath": "pages/index/img/icon_tuijian_red.png"
+      },
+      {
+        "pagePath": "pages/tabth/tabth",
+        "text": "其他",
+        "iconPath": "pages/index/img/icon_other_hui.png",
+        "selectedIconPath": "pages/index/img/icon_other_red.png"
+      },
+      {
+        "pagePath": "pages/tabme/tabme",
+        "text": "我的",
+        "iconPath": "pages/index/img/icon_me_hui.png",
+        "selectedIconPath": "pages/index/img/icon_me_red.png"
+      }
+    ]
   }
 }

@@ -1,2 +1,2 @@
 <!--pages/index/requst/cdetail/cdetail.wxml-->
-<text>pages/index/requst/cdetail/cdetail.wxml</text>
+<web-view src='{{url}}'></web-view>

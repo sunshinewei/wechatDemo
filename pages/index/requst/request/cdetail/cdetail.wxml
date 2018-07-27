@@ -1,2 +1,2 @@
-<!--pages/index/requst/request/cdetail/cdetail.wxml-->
-<text>pages/index/requst/request/cdetail/cdetail.wxml</text>
+<!--文章详情页-->
+<web-view src="https://mp.weixin.qq.com/"></web-view>

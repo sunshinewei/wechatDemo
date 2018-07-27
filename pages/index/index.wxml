@@ -1,13 +1,13 @@
 <!--index.wxml-->
-<view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-   <navigator url="/pages/index/requst/request">跳转到新页面</navigator>
-  </view>
+<view class="section">
+ 
+ <view class='root_view'  wx:for="{{android}}" >
+    <navigator url='requst/cdetail/cdetail?url={{item.url}}'>
+      <view class='title_header'>
+        <view class='title'>{{item.desc}}</view>
+      </view>
+      <view class='time'>作者：{{item.who}}</view>
+    </navigator>
+ </view>
+
 </view>

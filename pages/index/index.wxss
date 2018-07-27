@@ -19,3 +19,35 @@
 .usermotto {
   margin-top: 200px;
 }
+
+.root_view{
+  margin: 20px
+}
+
+
+.title_header{
+   display: flex;
+}
+
+/* 文章标题 */
+
+.title{
+  color: #353535;
+  size: 17pt;
+  padding-left: 25px;
+  padding-right: 25px;
+  align-content: center;
+  vertical-align: middle
+}
+/* 时间样式 */
+.time{
+  color: #888;
+  size: 13pt;
+  margin-top: 15px;
+  margin-bottom: 15px
+}
+
+.line{
+  color: #aaa;
+  height: 2px
+}
