@@ -6,14 +6,17 @@
     "pages/tabme/tabme",
     "pages/tabth/tabth",
     "pages/tabtwo/tabtwo",
-    "pages/index/requst/cdetail/cdetail"
+    "pages/index/requst/cdetail/cdetail",
+    "pages/tabth/detail/detailth"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#fffefefe",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#fffefefe"
   },
+
   "tabBar": {
     "list": [
       {
@@ -22,23 +25,12 @@
         "iconPath": "pages/index/img/icon_home_hui.png",
         "selectedIconPath": "pages/index/img/icon_home_red.png"
       },
-      {
-        "pagePath": "pages/tabtwo/tabtwo",
-        "text": "推荐",
-        "iconPath": "pages/index/img/icon_tuijian_hui.png",
-        "selectedIconPath": "pages/index/img/icon_tuijian_red.png"
-      },
+      
       {
         "pagePath": "pages/tabth/tabth",
-        "text": "其他",
+        "text": "玩安卓",
         "iconPath": "pages/index/img/icon_other_hui.png",
         "selectedIconPath": "pages/index/img/icon_other_red.png"
-      },
-      {
-        "pagePath": "pages/tabme/tabme",
-        "text": "我的",
-        "iconPath": "pages/index/img/icon_me_hui.png",
-        "selectedIconPath": "pages/index/img/icon_me_red.png"
       }
     ]
   }

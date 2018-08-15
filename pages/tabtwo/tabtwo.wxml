@@ -1,5 +1,5 @@
-<view wx:for="{{data}}">
+<view wx:for="{{data}}" class="img_style">
 
-  <image style="width: 250px; height: 300px; background-color: #eeeeee;"src="{{item.url}}"></image>
+  <image  src="{{item.url}}"></image>
 
 </view>

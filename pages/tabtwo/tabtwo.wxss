@@ -1,1 +1,6 @@
 /* pages/tabtwo/tabtwo.wxss */
+
+.img_style{
+  align-content: center;
+  height: 300px
+}

@@ -1,2 +1,9 @@
 <!--pages/tabme/tabme.wxml-->
-<text>pages/tabme/tabme.wxml</text>
+<view class='view_root'>
+  <label class='label_style'>暂未完成</label>
+  <!-- <label class='label_style'>bbb</label>
+  <label class='label_style'>ccc</label> -->
+
+
+
+</view>

@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<view class="section">
+
  
  <view class='root_view'  wx:for="{{android}}" >
     <navigator url='requst/cdetail/cdetail?url={{item.url}}'>
@@ -10,4 +10,3 @@
     </navigator>
  </view>
 
-</view>

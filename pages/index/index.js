@@ -5,20 +5,16 @@ const app = getApp()
 Page({
 
   onItemClick: function () {
+    console.log("on pull down"),
     wx.navigateTo({
       url: 'requst/cdetail/cdetail',
     })
   },
-
-/** 
- * 下拉刷新
-*/
-  onPullDownRefresh:function(Msg){
+  refresh:function(){
     wx.showNavigationBarLoading() //在标题栏中显示加载
-    var that = this;
+    var that = this
     wx.request({
       url: 'http://gank.io/api/random/data/Android/20',
-      method: 'GET',
       headers: {
         'Content-Type': 'application/json'
       },
@@ -30,7 +26,7 @@ Page({
         wx.stopPullDownRefresh()
       },
     })
-  
+    // wx.stopPullDownRefresh()
   },
 
   /**
@@ -89,10 +85,24 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-
+    wx.showNavigationBarLoading() //在标题栏中显示加载
+    var that = this
+    wx.request({
+      url: 'http://gank.io/api/random/data/Android/20',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      success: function (res) {
+        that.setData({
+          android: res.data.results
+        })
+        wx.hideNavigationBarLoading()
+        wx.stopPullDownRefresh()
+      },
+    })
   },
 
-  /**
+  /**  
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
