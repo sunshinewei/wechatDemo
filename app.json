@@ -15,23 +15,5 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black",
     "backgroundColor": "#fffefefe"
-  },
-
-  "tabBar": {
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath": "pages/index/img/icon_home_hui.png",
-        "selectedIconPath": "pages/index/img/icon_home_red.png"
-      },
-      
-      {
-        "pagePath": "pages/tabth/tabth",
-        "text": "玩安卓",
-        "iconPath": "pages/index/img/icon_other_hui.png",
-        "selectedIconPath": "pages/index/img/icon_other_red.png"
-      }
-    ]
   }
 }

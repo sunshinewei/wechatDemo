@@ -1,5 +1,5 @@
 <!--pages/tabth/tabth.wxml-->
-<view>
+<!-- <view>
   <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
   <block wx:for="{{banners}}">
@@ -16,4 +16,6 @@
   <view class='time'>作者:{{item.author}}              分类:{{item.chapterName}}</view>
 </navigator>
 </view>
-</view>
+</view> -->
+
+<web-view src="https://www.v2ex.com/?tab=tech"></web-view>

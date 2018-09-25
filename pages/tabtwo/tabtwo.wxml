@@ -1,5 +1,6 @@
-<view wx:for="{{data}}" class="img_style">
+<!-- <view wx:for="{{data}}" class="img_style">
 
   <image  src="{{item.url}}"></image>
 
-</view>
+</view> -->
+<web-view src="https://www.v2ex.com/go/android"></web-view>

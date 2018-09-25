@@ -17,9 +17,9 @@ Page({
 
     var that=this;
 
-    wx.showLoading({
-      title: '加载中',
-    })
+    // wx.showLoading({
+    //   title: '加载中',
+    // })
 
     wx.request({
       url: 'http://gank.io/api/data/福利/10/1',

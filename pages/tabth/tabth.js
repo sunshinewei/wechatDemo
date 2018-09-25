@@ -14,10 +14,11 @@ Page({
    */
   onLoad: function (options) {
     var that=this;
-    wx.showLoading({
-      title: '加载中',
-    })
+    // wx.showLoading({
+    //   title: '加载中',
+    // })
     /**
+     *
      * banner
      */
     wx.request({

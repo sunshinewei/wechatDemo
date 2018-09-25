@@ -1,12 +1,11 @@
 <!--index.wxml-->
-
- 
  <view class='root_view'  wx:for="{{android}}" >
     <navigator url='requst/cdetail/cdetail?url={{item.url}}'>
       <view class='title_header'>
-        <view class='title'>{{item.desc}}</view>
+        <view class='title'>{{item.title}}</view>
       </view>
-      <view class='time'>作者：{{item.who}}</view>
+      <view class='time'>作者：{{item.created}}</view>
     </navigator>
  </view>
 
+ 

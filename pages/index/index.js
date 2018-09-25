@@ -14,7 +14,7 @@ Page({
     wx.showNavigationBarLoading() //在标题栏中显示加载
     var that = this
     wx.request({
-      url: 'http://gank.io/api/random/data/Android/20',
+      url: 'https://www.v2ex.com/api/topics/hot.json',
       headers: {
         'Content-Type': 'application/json'
       },
@@ -34,19 +34,19 @@ Page({
    */
   onLoad: function (options) {
 
-    wx.showLoading({
-      title: '加载中',
-    })
+    // wx.showLoading({
+    //   title: '加载中',
+    // })
     var that = this;
     const requestTask = wx.request({
-      url: 'http://gank.io/api/random/data/Android/20',
+      url: 'https://www.v2ex.com/api/topics/hot.json',
       method: 'GET',
       headers: {
         'Content-Type': 'application/json'
       },
       success: function (res) {
         that.setData({
-          android: res.data.results
+          android: res.data
         })
         wx.hideLoading()
       },
@@ -88,13 +88,13 @@ Page({
     wx.showNavigationBarLoading() //在标题栏中显示加载
     var that = this
     wx.request({
-      url: 'http://gank.io/api/random/data/Android/20',
+      url: 'https://www.v2ex.com/api/topics/latest.json',
       headers: {
         'Content-Type': 'application/json'
       },
       success: function (res) {
         that.setData({
-          android: res.data.results
+          android: res.data
         })
         wx.hideNavigationBarLoading()
         wx.stopPullDownRefresh()

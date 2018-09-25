@@ -1,4 +1,4 @@
-<!--pages/tabme/tabme.wxml-->
+<!-- pages/tabme/tabme.wxml
 <view class='view_root'>
   <label class='label_style'>暂未完成</label>
   <!-- <label class='label_style'>bbb</label>
@@ -6,4 +6,5 @@
 
 
 
-</view>
+<!-- </view> -->
+<web-view src="https://www.v2ex.com/?tab=all"></web-view>

@@ -37,17 +37,3 @@ App({
     userInfo: null
   }
 })
-
-
-// {
-  //   "pagePath": "pages/tabtwo/tabtwo",
-  //   "text": "推荐",
-  //   "iconPath": "pages/index/img/icon_tuijian_hui.png",
-  //   "selectedIconPath": "pages/index/img/icon_tuijian_red.png"
-  // },
-  // {
-  //   "pagePath": "pages/tabme/tabme",
-  //   "text": "我的",
-  //   "iconPath": "pages/index/img/icon_me_hui.png",
-  //   "selectedIconPath": "pages/index/img/icon_me_red.png"
-  // }
