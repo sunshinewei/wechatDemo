@@ -1,4 +1,4 @@
-<!--pages/tabth/tabth.wxml-->
+<!-- pages/tabth/tabth.wxml-->
 <!-- <view>
   <swiper indicator-dots="{{indicatorDots}}"
   autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
