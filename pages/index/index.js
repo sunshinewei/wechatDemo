@@ -435,35 +435,11 @@ Page({
       }
     ]
   },
-//开始
-  tabClick: function (e) {
-    this.setData({
-      activeCategoryId: e.currentTarget.id
-    });
-    this.getGoodsList(this.data.activeCategoryId);
-  },
-  //事件处理函数
-  swiperchange: function (e) {
-    //console.log(e.detail.current)
-    this.setData({
-      swiperCurrent: e.detail.current
-    })
-  },
+
+//条目点击事件
   toDetailsTap: function (e) {
     wx.navigateTo({
-      url: "/pages/goods-details/index?id=" + e.currentTarget.dataset.id
-    })
-  },
-  tapBanner: function (e) {
-    if (e.currentTarget.dataset.id != 0) {
-      wx.navigateTo({
-        url: "/pages/goods-details/index?id=" + e.currentTarget.dataset.id
-      })
-    }
-  },
-  bindTypeTap: function (e) {
-    this.setData({
-      selectCurrent: e.index
+      url: "requst/cdetail/cdetail?source=" + JSON.stringify(e.currentTarget.dataset.item)
     })
   },
   scroll: function (e) {

@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view>
     <view class="goods-container">
-        <view class="goods-box" wx:for-items="{{source}}" wx:key="{{index}}" bindtap="toDetailsTap" data-id="{{item.id}}">
+        <view class="goods-box" wx:for-items="{{source}}" wx:key="{{index}}" bindtap="toDetailsTap" data-item="{{item}}">
            <view class="img-box">
               <image src="{{item.pic}}" class="image" mode="aspectFill" lazy-load="true"/>
            </view>
