@@ -1,6 +1,6 @@
 <!--pages/index/requst/cdetail/cdetail.wxml-->
 <view> 
-   <image src='/pages/index/img/111.jpg' class='imge_show'></image>
+   <image src='{{details.pic}}' class='imge_show'></image>
    <view class="goods-info">
         <view class="goods-title">{{details.name}}</view>
         <view class="goods-price" style="padding-left:35rpx;">零售价{{details.originalPrice}}元/瓶</view>
