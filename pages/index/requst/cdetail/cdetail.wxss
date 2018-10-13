@@ -67,7 +67,6 @@ swiper-item image {
 }
 .goods-info .goods-price{
    box-sizing:border-box;
-   color:#e64340;
    font-size: 28rpx;
    font-weight: bold;
    width: 30%;

@@ -1,2 +1,2 @@
 <!--pages/tabth/detail/detailth.wxml-->
-<web-view src='{{urls}}'></web-view>
+<text>pages/tabth/detail/detailth.wxml</text>

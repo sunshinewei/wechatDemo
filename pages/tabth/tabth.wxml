@@ -1,21 +1,2 @@
-<!-- pages/tabth/tabth.wxml-->
-<!-- <view>
-  <swiper indicator-dots="{{indicatorDots}}"
-  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-  <block wx:for="{{banners}}">
-  <navigator url='detail/detailth?link={{item.url}}'>
-    <swiper-item>
-      <image src="{{item.imagePath}}" class="swiper_style"/>
-    </swiper-item>
-  </navigator>
-  </block>
-</swiper>
-<view  wx:for="{{lists.datas}}" class='root_view' >
-<navigator url='detail/detailth?link={{item.link}}'>
-  <view class='title'>{{item.title}}</view>
-  <view class='time'>作者:{{item.author}}              分类:{{item.chapterName}}</view>
-</navigator>
-</view>
-</view> -->
-
-<web-view src="https://www.v2ex.com/?tab=tech"></web-view>
+<!--pages/tabth/tabth.wxml-->
+<text>pages/tabth/tabth.wxml</text>

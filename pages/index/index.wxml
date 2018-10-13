@@ -6,7 +6,7 @@
               <image src="{{item.pic}}" class="image" mode="aspectFill" lazy-load="true"/>
            </view>
            <view class="goods-title">{{item.name}}</view>
-           <view class="goods-price">¥ {{item.minPrice}}</view>
+           <view class="goods-price">最低零售价 ¥ {{item.originalPrice}}</view>
         </view>
     </view>
     <view hidden="{{loadingMoreHidden ? true : false}}" class="no-more-goods">没有更多啦</view>
