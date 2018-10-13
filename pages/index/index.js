@@ -9,7 +9,7 @@ Page({
       {
         barCode: "",
         categoryId: 35,
-        characteristic: "茅台醇为茅台集团技开公司开发，协议价务必保密，零售价应按市场零售价执行。",
+        characteristic: "茅台醇为茅台集团技开公司开发，零售价应按市场零售价执行。",
         commission: 9,
         commissionType: 1,
         dateAdd: "2017-05-03 09:09:36",
@@ -48,7 +48,7 @@ Page({
       },
       {
         categoryId: 36,
-        characteristic: "茅台醇为茅台集团技开公司开发，协议价务必保密，零售价应按市场零售价执行。",
+        characteristic: "茅台醇为茅台集团技开公司开发，零售价应按市场零售价执行。",
         commission: 0,
         commissionType: 0,
         dateAdd: "2017-04-26 23:07:15",
@@ -85,7 +85,7 @@ Page({
       },
       {
         categoryId: 35,
-        characteristic: "茅台醇为茅台集团技开公司开发，协议价务必保密，零售价应按市场零售价执行。",
+        characteristic: "茅台醇为茅台集团技开公司开发，零售价应按市场零售价执行。",
         commission: 0,
         commissionType: 0,
         dateAdd: "2017-04-26 22:39:51",
@@ -122,7 +122,7 @@ Page({
       },
       {
         categoryId: 37,
-        characteristic: "白金金质酒为茅台集团白金酒公司开发，价格务必保密，市场零售价在最低零售价到扫码价之间。",
+        characteristic: "白金金质酒为茅台集团白金酒公司开发，市场零售价在最低零售价到扫码价之间。",
         commission: 0,
         commissionType: 0,
         dateAdd: "2017-04-26 22:29:45",
@@ -159,7 +159,7 @@ Page({
       },
       {
         categoryId: 42,
-        characteristic: "白金金质酒为茅台集团白金酒公司开发，价格务必保密，市场零售价在最低零售价到扫码价之间。",
+        characteristic: "白金金质酒为茅台集团白金酒公司开发，市场零售价在最低零售价到扫码价之间。",
         commission: 0,
         commissionType: 0,
         dateAdd: "2017-04-26 21:52:16",
@@ -196,7 +196,7 @@ Page({
       },
       {
         categoryId: 36,
-        characteristic: "白金金质酒为茅台集团白金酒公司开发，价格务必保密，市场零售价在最低零售价到扫码价之间。",
+        characteristic: "白金金质酒为茅台集团白金酒公司开发，市场零售价在最低零售价到扫码价之间。",
         commission: 0,
         commissionType: 0,
         dateAdd: "2017-04-25 23:54:54",
@@ -233,7 +233,7 @@ Page({
       },
       {
         categoryId: 35,
-        characteristic: "白金金质酒为茅台集团白金酒公司开发，价格务必保密，市场零售价在最低零售价到扫码价之间。",
+        characteristic: "白金金质酒为茅台集团白金酒公司开发，市场零售价在最低零售价到扫码价之间。",
         commission: 0,
         commissionType: 0,
         dateAdd: "2017-04-25 23:37:32",
@@ -271,7 +271,7 @@ Page({
       },
       {
         categoryId: 35,
-        characteristic: "白金金质酒为茅台集团白金酒公司开发，价格务必保密，市场零售价在最低零售价到扫码价之间。",
+        characteristic: "白金金质酒为茅台集团白金酒公司开发，市场零售价在最低零售价到扫码价之间。",
         commission: 0,
         commissionType: 0,
         dateAdd: "2017-04-25 23:18:58",

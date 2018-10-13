@@ -12,6 +12,10 @@
         <view class="goods-text">
            <view>{{details.characteristic}}</view>
          </view>
+         <view class="label-title">联系方式</view>
+        <view class="goods-text">
+           <view style="color:#e64340;font-size:35rpx;">微信： y18786309286</view>
+         </view>
     </view>
 </view>
 
